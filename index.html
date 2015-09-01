@@ -5,22 +5,28 @@
     <title>Pomodoro Please</title>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="css/flipclock.css">
   </head>
+
   <body>
       <div class="container">
       <h1 class="well">Pomodoro</h1>
       <div class="btn-group btn-group-justified" role="group">
         <div class="btn-group" role="group">
-        <button type="button" class="btn btn-primary">Start</button>
+        <button type="button" class="btn btn-primary" id="start">Start</button>
         </div>
         <div class="btn-group" role="group">
-        <button type="button" class="btn btn-warning">Stop</button>
+        <button type="button" class="btn btn-warning" id="stop">Stop</button>
         </div>
         <div class="btn-group" role="group">
-        <button type="button" class="btn btn-secondary">Reset</button>
+        <button type="button" class="btn btn-secondary" id="start">Reset</button>
         </div>
       </div>
-        <div><h2 class="well">Tomatoe Timer:<span id="timer area"></span></h2>
+        <div><h2 class="well">Tomato Timer:<br><span class="your-clock"></span>
+        </h2>
+        </div>
+        <div >
+
         </div>
 
         <div><h2 class="well">count the tomatoes:<span id="tomatoe area"></span></h2>
@@ -29,6 +35,8 @@
       </div>
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/flipclock.min.js"></script>
+    <script src="js/flipclock.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
